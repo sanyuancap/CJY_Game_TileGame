@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9659291890854100267862 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9659201890854100267862 /* CloseNormal.png */; };
+		CE96592A1890854100267862 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9659211890854100267862 /* CloseSelected.png */; };
+		CE96592B1890854100267862 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9659221890854100267862 /* HelloWorld.png */; };
+		CE96592C1890854100267862 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9659231890854100267862 /* hit.wav */; };
+		CE96592D1890854100267862 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9659241890854100267862 /* move.wav */; };
+		CE96592E1890854100267862 /* pickup.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9659251890854100267862 /* pickup.wav */; };
+		CE96592F1890854100267862 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = CE9659261890854100267862 /* Thumbs.db */; };
+		CE9659301890854100267862 /* TileMap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE9659271890854100267862 /* TileMap.tmx */; };
+		CE9659311890854100267862 /* TileMap.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE9659281890854100267862 /* TileMap.wav */; };
 		CE99A018188F3E6100FEAB3E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99A017188F3E6100FEAB3E /* QuartzCore.framework */; };
 		CE99A01A188F3E6100FEAB3E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99A019188F3E6100FEAB3E /* OpenGLES.framework */; };
 		CE99A01C188F3E6100FEAB3E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99A01B188F3E6100FEAB3E /* OpenAL.framework */; };
@@ -280,9 +289,26 @@
 		CE99A3B5188F3E6400FEAB3E /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE99A3B4188F3E6400FEAB3E /* libwebsockets.a */; };
 		CE99A3BB188F3E6400FEAB3E /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE99A3BA188F3E6400FEAB3E /* AppDelegate.cpp */; };
 		CE99A3BE188F3E6400FEAB3E /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE99A3BD188F3E6400FEAB3E /* HelloWorldScene.cpp */; };
+		CE99A3CC188F41B400FEAB3E /* hit.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3C5188F41B400FEAB3E /* hit.caf */; };
+		CE99A3CD188F41B400FEAB3E /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3C6188F41B400FEAB3E /* meta_tiles.png */; };
+		CE99A3CE188F41B400FEAB3E /* move.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3C7188F41B400FEAB3E /* move.caf */; };
+		CE99A3CF188F41B400FEAB3E /* pickup.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3C8188F41B400FEAB3E /* pickup.caf */; };
+		CE99A3D0188F41B400FEAB3E /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3C9188F41B400FEAB3E /* Player.png */; };
+		CE99A3D1188F41B400FEAB3E /* TileMap.caf in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3CA188F41B400FEAB3E /* TileMap.caf */; };
+		CE99A3D2188F41B400FEAB3E /* tmw_desert_spacing.png in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3CB188F41B400FEAB3E /* tmw_desert_spacing.png */; };
+		CE99A3D4188F4ED900FEAB3E /* firsttest_cjy.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE99A3D3188F4ED900FEAB3E /* firsttest_cjy.tmx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE9659201890854100267862 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
+		CE9659211890854100267862 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
+		CE9659221890854100267862 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
+		CE9659231890854100267862 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		CE9659241890854100267862 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		CE9659251890854100267862 /* pickup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pickup.wav; sourceTree = "<group>"; };
+		CE9659261890854100267862 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		CE9659271890854100267862 /* TileMap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TileMap.tmx; sourceTree = "<group>"; };
+		CE9659281890854100267862 /* TileMap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TileMap.wav; sourceTree = "<group>"; };
 		CE99A014188F3E6100FEAB3E /* CJY_TileGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJY_TileGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99A017188F3E6100FEAB3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE99A019188F3E6100FEAB3E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -873,6 +899,14 @@
 		CE99A3BA188F3E6400FEAB3E /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		CE99A3BC188F3E6400FEAB3E /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		CE99A3BD188F3E6400FEAB3E /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		CE99A3C5188F41B400FEAB3E /* hit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hit.caf; sourceTree = "<group>"; };
+		CE99A3C6188F41B400FEAB3E /* meta_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta_tiles.png; sourceTree = "<group>"; };
+		CE99A3C7188F41B400FEAB3E /* move.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = move.caf; sourceTree = "<group>"; };
+		CE99A3C8188F41B400FEAB3E /* pickup.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pickup.caf; sourceTree = "<group>"; };
+		CE99A3C9188F41B400FEAB3E /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		CE99A3CA188F41B400FEAB3E /* TileMap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TileMap.caf; sourceTree = "<group>"; };
+		CE99A3CB188F41B400FEAB3E /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmw_desert_spacing.png; sourceTree = "<group>"; };
+		CE99A3D3188F4ED900FEAB3E /* firsttest_cjy.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = firsttest_cjy.tmx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +978,7 @@
 		CE99A028188F3E6100FEAB3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE99A3C4188F41B400FEAB3E /* TileGameResources */,
 				CE99A029188F3E6100FEAB3E /* CloseNormal.png */,
 				CE99A02B188F3E6100FEAB3E /* CloseSelected.png */,
 				CE99A02D188F3E6100FEAB3E /* Default.png */,
@@ -2101,6 +2136,30 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		CE99A3C4188F41B400FEAB3E /* TileGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				CE9659201890854100267862 /* CloseNormal.png */,
+				CE9659211890854100267862 /* CloseSelected.png */,
+				CE9659221890854100267862 /* HelloWorld.png */,
+				CE9659231890854100267862 /* hit.wav */,
+				CE9659241890854100267862 /* move.wav */,
+				CE9659251890854100267862 /* pickup.wav */,
+				CE9659261890854100267862 /* Thumbs.db */,
+				CE9659271890854100267862 /* TileMap.tmx */,
+				CE9659281890854100267862 /* TileMap.wav */,
+				CE99A3D3188F4ED900FEAB3E /* firsttest_cjy.tmx */,
+				CE99A3C5188F41B400FEAB3E /* hit.caf */,
+				CE99A3C6188F41B400FEAB3E /* meta_tiles.png */,
+				CE99A3C7188F41B400FEAB3E /* move.caf */,
+				CE99A3C8188F41B400FEAB3E /* pickup.caf */,
+				CE99A3C9188F41B400FEAB3E /* Player.png */,
+				CE99A3CA188F41B400FEAB3E /* TileMap.caf */,
+				CE99A3CB188F41B400FEAB3E /* tmw_desert_spacing.png */,
+			);
+			path = TileGameResources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2128,6 +2187,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ChengJY;
 			};
 			buildConfigurationList = CE99A00F188F3E6100FEAB3E /* Build configuration list for PBXProject "CJY_TileGame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2153,17 +2213,34 @@
 			files = (
 				CE99A03A188F3E6100FEAB3E /* Icon.png in Resources */,
 				CE99A0DD188F3E6200FEAB3E /* ChangeLog in Resources */,
+				CE99A3D0188F41B400FEAB3E /* Player.png in Resources */,
+				CE99A3D2188F41B400FEAB3E /* tmw_desert_spacing.png in Resources */,
+				CE99A3CF188F41B400FEAB3E /* pickup.caf in Resources */,
+				CE99A3D4188F4ED900FEAB3E /* firsttest_cjy.tmx in Resources */,
+				CE99A3CD188F41B400FEAB3E /* meta_tiles.png in Resources */,
+				CE9659311890854100267862 /* TileMap.wav in Resources */,
+				CE96592C1890854100267862 /* hit.wav in Resources */,
+				CE96592A1890854100267862 /* CloseSelected.png in Resources */,
 				CE99A02A188F3E6100FEAB3E /* CloseNormal.png in Resources */,
 				CE99A036188F3E6100FEAB3E /* Icon-Small.png in Resources */,
+				CE99A3CC188F41B400FEAB3E /* hit.caf in Resources */,
 				CE99A032188F3E6100FEAB3E /* Icon-72.png in Resources */,
+				CE99A3CE188F41B400FEAB3E /* move.caf in Resources */,
 				CE99A030188F3E6100FEAB3E /* HelloWorld.png in Resources */,
+				CE9659291890854100267862 /* CloseNormal.png in Resources */,
 				CE99A034188F3E6100FEAB3E /* Icon-Small-50.png in Resources */,
 				CE99A03E188F3E6100FEAB3E /* iTunesArtwork in Resources */,
 				CE99A038188F3E6100FEAB3E /* Icon-Small@2x.png in Resources */,
+				CE96592D1890854100267862 /* move.wav in Resources */,
 				CE99A02E188F3E6100FEAB3E /* Default.png in Resources */,
 				CE99A02C188F3E6100FEAB3E /* CloseSelected.png in Resources */,
+				CE9659301890854100267862 /* TileMap.tmx in Resources */,
 				CE99A03C188F3E6100FEAB3E /* Icon@2x.png in Resources */,
+				CE96592B1890854100267862 /* HelloWorld.png in Resources */,
+				CE96592F1890854100267862 /* Thumbs.db in Resources */,
 				CE99A251188F3E6300FEAB3E /* project.pbxproj in Resources */,
+				CE96592E1890854100267862 /* pickup.wav in Resources */,
+				CE99A3D1188F41B400FEAB3E /* TileMap.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2564,6 +2641,7 @@
 				CE99A3C3188F3E6400FEAB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

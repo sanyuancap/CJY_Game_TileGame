@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+   <terrain name="新地形" tile="-1"/>
+   <terrain name="新地形" tile="-1"/>
+   <terrain name="新地形" tile="-1"/>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1kkLgzAQBeBcuhy6eOoKYmtrN+r//3mdgAMhDbHBQ1/kHT5UgjBPM0NKY0xJRERERESj1QLUMNRUzMQcoJYhVmItCoBafnEPCOVw19x7dLn9D0t7wbXsciwCa8r2TgVQv9U63z5VAZTD2ohtgglYjr049DgG3kPpnVt3PYlzj9p7t/FyNEA5LuLpuWaYw681tsYczJGaw51f70hG1HlVe8+xeZVDjof5nlsv4Bwq1h8qdvbKJUff2Qslh+6j0N5RsbPXDiBDqsrx71qIiIiIiMbmA46/ITE=
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Objects" width="50" height="50">
+  <object x="384" y="1088"/>
+  <object name="SpawnPoint" x="384" y="1088"/>
+ </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzzENAAAIwDCc4N8lDy/8kDaZgEUAAAAAADDJ7rovHwAAAACbApTwAH0=
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENACAIAEFX0v2Hs7HTEDtR7xIqGr6gFAAAAAB+UzcnOx25RLfe3NHGrHaZvdrxyn/oOOumWyM6AAAAZh0ttxDd
+  </data>
+ </layer>
+</map>
